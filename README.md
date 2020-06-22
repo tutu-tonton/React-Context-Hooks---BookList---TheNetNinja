@@ -55,3 +55,8 @@ https://github.com/iamshaunjp/react-context-hooks
 
 - BookList.component & BookDetails.component作成
 
+## 18 Reading List Project part3
+
+- BookForm.component作成
+- タイトル・著者入力すると、リストに追加される
+
