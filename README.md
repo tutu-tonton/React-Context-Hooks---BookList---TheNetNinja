@@ -64,3 +64,8 @@ https://github.com/iamshaunjp/react-context-hooks
 
 -   bookReducer 作成
 -   context はすっきりする。onClick などで action を dispatch する
+
+## 21 Adding Local Storage
+
+-   list を localStorage に保存
+-   ページ更新時には localStorage データを持ってくる
