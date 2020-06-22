@@ -4,59 +4,63 @@ https://github.com/iamshaunjp/react-context-hooks
 
 ## 1 Introduction
 
-- :sunny: vscodeスニペットAutoComplete-別コンポーネントは直接JSX内に書き込むと、autoComplete候補が出てくる。-> わざわざimport書かなくて済む
+-   :sunny: vscode スニペット AutoComplete-別コンポーネントは直接 JSX 内に書き込むと、autoComplete 候補が出てくる。-> わざわざ import 書かなくて済む
 
 ## 3 Adding a Context & Provider
 
-- :white_check_mark: createContext, ラップするところまで
+-   :white_check_mark: createContext, ラップするところまで
 
 ## 4 Accessing Context part1
 
-- Appからのcontextがnavbar,booklistまで渡るようにした
+-   App からの context が navbar,booklist まで渡るようにした
 
 ## 5 Accessing Context part2
 
-- Consumer使うパターン
+-   Consumer 使うパターン
 
 ## 6 Updating Context Data
 
-- テーマ切り替えボタン実装。
-- コンテキスト内にメソッド配置。そのメソッドがcontextで流れる。ボタンクリックでメソッド発動するように。
+-   テーマ切り替えボタン実装。
+-   コンテキスト内にメソッド配置。そのメソッドが context で流れる。ボタンクリックでメソッド発動するように。
 
 ## 7 Creating Multiple Contexts
 
-- 認証状態を管理するcontext追加。
+-   認証状態を管理する context 追加。
 
 ## 8 Consuming Multiple Contexts
 
-- １つのコンポーネント内で、複数のcontext使うには？
+-   １つのコンポーネント内で、複数の context 使うには？
 
-## 9-12 基本的なHooksについて
+## 9-12 基本的な Hooks について
 
-- https://github.com/tutu-tonton/react-hooks-thenetninja
+-   https://github.com/tutu-tonton/react-hooks-thenetninja
 
 ## 13 Hooks with Context
 
-- BookListComponentをfnComponentに書き換え
-- useContextの使い方
+-   BookListComponent を fnComponent に書き換え
+-   useContext の使い方
 
 ## 14 Multiple Contexts using Hooks
 
-- Navbar,ThemeToggleコンポーネントをfnComponentに書き換え
-- 複数のcontextを使う際の書き方が非常に簡潔になる
+-   Navbar,ThemeToggle コンポーネントを fnComponent に書き換え
+-   複数の context を使う際の書き方が非常に簡潔になる
 
 ## 15 Creating Context with Functional Components
 
-- BookContext作成。
+-   BookContext 作成。
 
 ## 16 Reading List Project part1
 
 ## 17 Reading List Project part2
 
-- BookList.component & BookDetails.component作成
+-   BookList.component & BookDetails.component 作成
 
 ## 18 Reading List Project part3
 
-- BookForm.component作成
-- タイトル・著者入力すると、リストに追加される
+-   BookForm.component 作成
+-   タイトル・著者入力すると、リストに追加される
 
+## 20 Adding a Reducer
+
+-   bookReducer 作成
+-   context はすっきりする。onClick などで action を dispatch する
