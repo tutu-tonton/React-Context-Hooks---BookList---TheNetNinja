@@ -4,6 +4,7 @@ import { bookReducer } from '../reducers/bookReducer';
 export const BookContext = createContext();
 
 const BookContextProvider = (props) => {
+	// useReducer(reducer, initialArg, init)
 	const [books, dispatch] = useReducer(bookReducer, [], () => {
 		const localData = localStorage.getItem('books');
 		return localData ? JSON.parse(localData) : [];

@@ -1,3 +1,7 @@
+//========================================
+//  Navbar
+//  contextよりbooks使用する
+//========================================
 import React, { useContext } from 'react';
 import { BookContext } from '../contexts/BookContext';
 

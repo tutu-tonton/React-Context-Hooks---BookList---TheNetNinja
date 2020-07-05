@@ -1,6 +1,36 @@
 # React Context & Hooks Tutorial - The Net Ninja
 
+## BookList App
+
+### context + reducer / localStorage
+
 https://github.com/iamshaunjp/react-context-hooks
+
+
+![](IMG_31A2993A0E44-1.jpeg)
+
+## 16 Reading List Project part1
+
+## 17 Reading List Project part2
+
+-   BookList.component & BookDetails.component 作成
+
+## 18 Reading List Project part3
+
+-   BookForm.component 作成
+-   タイトル・著者入力すると、リストに追加される
+
+## 20 Adding a Reducer
+
+-   bookReducer 作成
+-   context はすっきりする。onClick などで action を dispatch する
+
+## 21 Adding Local Storage
+
+-   list を localStorage に保存
+-   ページ更新時には localStorage データを持ってくる
+
+---
 
 ## 1 Introduction
 
@@ -48,24 +78,3 @@ https://github.com/iamshaunjp/react-context-hooks
 ## 15 Creating Context with Functional Components
 
 -   BookContext 作成。
-
-## 16 Reading List Project part1
-
-## 17 Reading List Project part2
-
--   BookList.component & BookDetails.component 作成
-
-## 18 Reading List Project part3
-
--   BookForm.component 作成
--   タイトル・著者入力すると、リストに追加される
-
-## 20 Adding a Reducer
-
--   bookReducer 作成
--   context はすっきりする。onClick などで action を dispatch する
-
-## 21 Adding Local Storage
-
--   list を localStorage に保存
--   ページ更新時には localStorage データを持ってくる
